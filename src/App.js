@@ -1,9 +1,9 @@
 // src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import LoginPage from 'loginpage.js/pages/LoginPage';
-import RegisterPage from 'registrationpage.js/pages/RegisterPage';
-import ProfilePage from 'profilepage.js/pages/ProfilePage';
+import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
+import ProfilePage from './pages/ProfilePage';
 
 const App = () => {
   return (
