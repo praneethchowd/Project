@@ -1,7 +1,7 @@
 // src/pages/RegisterPage.js
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import { useUser } from 'usercontext.js/context/UserContext';
+import { useUser } from './context/UserContext';
 
 const RegisterPage = () => {
   const { login } = useUser(); // Access the login function from context
