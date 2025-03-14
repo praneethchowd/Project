@@ -1,7 +1,7 @@
 // src/pages/LoginPage.js
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import { useUser } from 'usercontext.js/context/UserContext'; // Custom hook to access user context
+import { useUser } from './context/UserContext'; // Custom hook to access user context
 
 const LoginPage = () => {
   const { login } = useUser(); // Access the login function from context
